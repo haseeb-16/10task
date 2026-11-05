@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CareerTrack - Internship training, skills, assignments and career development.">
+    <title>CareerTrack | Internship Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="site-header">
+        <div class="container header__inner">
+
+            <a href="#home" class="logo">
+                Career<span>Track</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <label for="menu-toggle" class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="visually-hidden">Toggle navigation</span>
+            </label>
+
+            <nav class="navigation" aria-label="Main navigation">
+                <a href="#home" class="navigation__link navigation__link--active">Home</a>
+                <a href="#about" class="navigation__link">About</a>
+                <a href="#skills" class="navigation__link">Skills</a>
+                <a href="#roadmap" class="navigation__link">Roadmap</a>
+                <a href="#assignments" class="navigation__link">Assignments</a>
+                <a href="#contact" class="navigation__link navigation__cta">Contact</a>
+            </nav>
+
+            <div class="theme-control">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle">Dark mode</label>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero__inner">
+
+                <div class="hero__content">
+                    <p class="eyebrow">WELCOME TO CAREERTRACK</p>
+
+                    <h1>
+                        Learn. Build.
+                        <span>Grow Your Career.</span>
+                    </h1>
+
+                    <p class="hero__description">
+                        A learning platform to develop technical skills,
+                        complete practical assignments, and prepare for
+                        professional opportunities.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#assignments" class="button button--primary">
+                            Explore Assignments
+                        </a>
+
+                        <a href="#about" class="button button--outline">
+                            Learn More
+                        </a>
+                    </div>
+
+                    <div class="hero__stats">
+                        <div>
+                            <strong>10+</strong>
+                            <span>Skills</span>
+                        </div>
+
+                        <div>
+                            <strong>15+</strong>
+                            <span>Assignments</span>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual" aria-label="Career development illustration">
+                    <div class="hero-card">
+                        <div class="hero-card__icon">💻</div>
+                        <h2>Build Your Future</h2>
+                        <p>Learn modern web development step by step.</p>
+
+                        <div class="hero-card__progress">
+                            <div>
+                                <span>Learning Progress</span>
+                                <strong>75%</strong>
+                            </div>
+
+                            <div class="progress-track">
+                                <span class="progress-track__fill"></span>
+                            </div>
+                        </div>
+
+                        <span class="hero-card__badge">Keep Growing!</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="container about__inner">
+
+                <div class="about__visual">
+                    <div class="about__symbol">CS</div>
+                    <p>Computer Science & Technology</p>
+                </div>
+
+                <div class="about__content">
+                    <p class="eyebrow">ABOUT THE PROGRAM</p>
+                    <h2 class="section-title">Develop Skills Through Practical Learning</h2>
+
+                    <p>
+                        CareerTrack is an internship learning project designed
+                        to help learners improve their technical knowledge
+                        through practical exercises and real-world projects.
+                    </p>
+
+                    <p>
+                        The program focuses on web development, programming,
+                        problem-solving, teamwork, and professional growth.
+                    </p>
+
+                    <a href="#roadmap" class="text-link">Explore the roadmap →</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I AM LEARNING</p>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p>Technologies and concepts covered during training.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon">🌐</div>
+                        <h3>HTML5</h3>
+                        <p>Semantic structure, forms, tables and accessibility.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon">🎨</div>
+                        <h3>CSS3</h3>
+                        <p>Responsive design, Flexbox, Grid and animations.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Programming fundamentals and interactive websites.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon">🐍</div>
+                        <h3>Python</h3>
+                        <p>Programming, problem-solving and automation.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon">🗄️</div>
+                        <h3>SQL</h3>
+                        <p>Database concepts, queries and data management.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon">🔧</div>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and collaborative development.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Training Roadmap -->
+        <section class="section roadmap" id="roadmap">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MY LEARNING JOURNEY</p>
+                    <h2 class="section-title">Training Roadmap</h2>
+                    <p>A step-by-step path towards professional development.</p>
+                </div>
+
+                <ol class="roadmap-list">
+
+                    <li class="roadmap-item">
+                        <h3>HTML Fundamentals</h3>
+                        <p>Learn document structure, semantic tags and forms.</p>
+                        <span class="status status--completed">Completed</span>
+                    </li>
+
+                    <li class="roadmap-item">
+                        <h3>CSS Fundamentals</h3>
+                        <p>Understand selectors, styling and the box model.</p>
+                        <span class="status status--completed">Completed</span>
+                    </li>
+
+                    <li class="roadmap-item">
+                        <h3>Responsive Web Design</h3>
+                        <p>Practice Flexbox, Grid and responsive layouts.</p>
+                        <span class="status status--progress">In Progress</span>
+                    </li>
+
+                    <li class="roadmap-item">
+                        <h3>JavaScript Development</h3>
+                        <p>Learn programming and DOM manipulation.</p>
+                        <span class="status status--pending">Pending</span>
+                    </li>
+
+                    <li class="roadmap-item">
+                        <h3>Final Website Project</h3>
+                        <p>Build and present a complete responsive website.</p>
+                        <span class="status status--pending">Pending</span>
+                    </li>
+
+                </ol>
+
+            </div>
+        </section>
+
+        <!-- Assignments Section -->
+        <section class="section assignments" id="assignments">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">PRACTICAL EXPERIENCE</p>
+                    <h2 class="section-title">My Assignments</h2>
+                    <p>Practical tasks completed during the internship.</p>
+                </div>
+
+                <div class="assignments-grid">
+
+                    <article class="assignment-card">
+                        <div class="assignment-card__top">
+                            <span class="assignment-number">01</span>
+                            <span class="status status--completed">Completed</span>
+                        </div>
+                        <h3>Personal Profile Page</h3>
+                        <p>Create a personal webpage using basic HTML elements.</p>
+                        <span class="assignment-card__technology">HTML5</span>
+                    </article>
+
+                    <article class="assignment-card">
+                        <div class="assignment-card__top">
+                            <span class="assignment-number">02</span>
+                            <span class="status status--completed">Completed</span>
+                        </div>
+                        <h3>Registration Form</h3>
+                        <p>Build an accessible form using different input types.</p>
+                        <span class="assignment-card__technology">HTML Forms</span>
+                    </article>
+
+                    <article class="assignment-card">
+                        <div class="assignment-card__top">
+                            <span class="assignment-number">03</span>
+                            <span class="status status--progress">In Progress</span>
+                        </div>
+                        <h3>Responsive Website</h3>
+                        <p>Design a responsive website using modern CSS.</p>
+                        <span class="assignment-card__technology">HTML & CSS</span>
+                    </article>
+
+                    <article class="assignment-card">
+                        <div class="assignment-card__top">
+                            <span class="assignment-number">04</span>
+                            <span class="status status--pending">Pending</span>
+                        </div>
+                        <h3>Interactive Web Project</h3>
+                        <p>Create an interactive website using JavaScript.</p>
+                        <span class="assignment-card__technology">JavaScript</span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Training Information Table -->
+        <section class="section training" id="training">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">TRAINING OVERVIEW</p>
+                    <h2 class="section-title">Learning Schedule</h2>
+                    <p>Overview of the training modules and their progress.</p>
+                </div>
+
+                <div class="table-wrapper">
+                    <table class="training-table">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Technology</th>
+                                <th>Duration</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Module 01</td>
+                                <td>HTML</td>
+                                <td>1 Week</td>
+                                <td><span class="status status--completed">Completed</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Module 02</td>
+                                <td>CSS</td>
+                                <td>2 Weeks</td>
+                                <td><span class="status status--progress">In Progress</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Module 03</td>
+                                <td>JavaScript</td>
+                                <td>2 Weeks</td>
+                                <td><span class="status status--pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Module 04</td>
+                                <td>Final Project</td>
+                                <td>2 Weeks</td>
+                                <td><span class="status status--pending">Pending</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact/Application Form -->
+        <section class="section contact" id="contact">
+            <div class="container contact__inner">
+
+                <div class="contact__content">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2 class="section-title">Get In Touch</h2>
+
+                    <p>
+                        Have a question or want to discuss an opportunity?
+                        Send a message using the form.
+                    </p>
+
+                    <div class="contact__detail">
+                        <strong>Email</strong>
+                        <span>hello@example.com</span>
+                    </div>
+
+                    <div class="contact__detail">
+                        <strong>Location</strong>
+                        <span>Lahore, Pakistan</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="#" method="get">
+
+                    <div class="form-group">
+                        <label for="full-name">Full Name *</label>
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="full-name"
+                            placeholder="Enter your name"
+                            required
+                            minlength="3"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@email.com"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="">Select a subject</option>
+                            <option value="internship">Internship Inquiry</option>
+                            <option value="training">Training Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message..."
+                            required
+                            minlength="10"
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="agreement" required>
+                            I agree to the terms and conditions.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="button button--primary">
+                        Send Message
+                    </button>
+
+                    <button type="button" class="button button--disabled" disabled>
+                        Currently Unavailable
+                    </button>
+
+                    <p class="form-note">* Required fields</p>
+
+                </form>
+
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section faq" id="faq">
+            <div class="container faq__container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">COMMON QUESTIONS</p>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+
+                <div class="faq-list">
+
+                    <details class="faq-item">
+                        <summary>What is CareerTrack?</summary>
+                        <p>
+                            CareerTrack is a learning project that organizes
+                            internship training, skills and assignments.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Which technologies are covered?</summary>
+                        <p>
+                            The training covers HTML, CSS, JavaScript,
+                            Python, SQL and Git.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Is this website responsive?</summary>
+                        <p>
+                            Yes. It uses CSS Grid, Flexbox, fluid sizing
+                            and media queries to adapt to different screens.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I contact the training team?</summary>
+                        <p>
+                            Yes. You can use the contact form to send
+                            your questions or inquiries.
+                        </p>
+                    </details>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer__grid">
+
+            <div class="footer__brand">
+                <a href="#home" class="logo">
+                    Career<span>Track</span>
+                </a>
+                <p>Learn new skills. Build real projects. Grow professionally.</p>
+            </div>
+
+            <div class="footer__links">
+                <h3>Quick Links</h3>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#assignments">Assignments</a>
+            </div>
+
+            <div class="footer__links">
+                <h3>Resources</h3>
+                <a href="#training">Training</a>
+                <a href="#faq">FAQs</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer__links">
+                <h3>Contact</h3>
+                <p>Lahore, Pakistan</p>
+                <a href="mailto:hello@example.com">hello@example.com</a>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p>&copy; 2026 CareerTrack. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
